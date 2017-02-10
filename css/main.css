@@ -1,18 +1,18 @@
 body {
-	background: steelblue;
+	background: teal;
 }
-@media screen and (min-width: 675px) {
+@media screen and (max-width: 1080px) {
 	body {
-		background: orange;
+		background: lightgray;
 	}
 }
-@media screen and (min-width: 999px) {
+@media screen and (max-width: 550px) {
 	body {
-		background: gray;
+		background: yellow;
 	}
 }
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 400px) {
 	body {
-		background: red;
+		background: purple;
 	}
 }
